@@ -1,0 +1,36 @@
+// 닌텐도 스위치 이미지를 만들었습니다.
+
+  void setup(){
+  size(800,500);
+  rectMode(CENTER);
+  }
+  void draw(){
+   fill(0,0,0);
+  rect(400,250,400,300); // swich head
+  
+  fill(100,100,100);
+  rect(400,250,350,250);
+  
+  fill(250,0,0);
+  rect(150,250,100,300); // left con
+  
+  fill(0,0,250);
+  rect(650,250,100,300); // right con
+  
+  fill(0);
+  ellipse(150,180,55,55); // left joystick
+  ellipse(150,250,20,20);
+  ellipse(150,290,20,20);
+  ellipse(170,270,20,20);
+  ellipse(130,270,20,20); // left button
+  
+  ellipse(650,270,55,55); // right joystick
+  ellipse(650,200,20,20);
+  ellipse(650,160,20,20);
+  ellipse(670,180,20,20);
+  ellipse(630,180,20,20); //  right button
+  
+  fill(100);
+  ellipse(650,270,50,50); // right joystick
+  ellipse(150,180,50,50); // left joystick
+  }
